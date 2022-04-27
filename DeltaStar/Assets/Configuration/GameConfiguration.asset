@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24529911e58e4914a9b8a253fbd0212a, type: 3}
+  m_Name: GameConfiguration
+  m_EditorClassIdentifier: 
+  starsCount: 100
+  prefabExplosion: {fileID: 606290276995101371, guid: b6c770ebaecda364c8474fd8cc833eac, type: 3}
+  prefabStar: {fileID: 4530184479917688646, guid: a7f0eeb7a903cee419734787f82dedb9, type: 3}
+  prefabDamageParticles: {fileID: 1881696983374578780, guid: 76e1199c86d2cc0468133ea0ac847de2, type: 3}

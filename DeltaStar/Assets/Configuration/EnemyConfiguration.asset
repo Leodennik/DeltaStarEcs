@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061aed5f11e2479eb8085081aafe8132, type: 3}
+  m_Name: EnemyConfiguration
+  m_EditorClassIdentifier: 
+  arrayEnemies:
+  - prefab: {fileID: 2830211409349270676, guid: 2971b985be78f884295e49a7d19cff4c, type: 3}
+    probability: 15
+    health: 10
+    minSpeed: 2
+    maxSpeed: 5
+    minShootDelay: 0.5
+    maxShootDelay: 1.5
+  - prefab: {fileID: 2830211409349270676, guid: 816497488185c9f44a3b35bd40425f09, type: 3}
+    probability: 10
+    health: 20
+    minSpeed: 1
+    maxSpeed: 4
+    minShootDelay: 0.3
+    maxShootDelay: 1.2
+  - prefab: {fileID: 2830211409349270676, guid: 095003c1507de4844b35eeea035f6328, type: 3}
+    probability: 5
+    health: 50
+    minSpeed: 0.5
+    maxSpeed: 2
+    minShootDelay: 0.5
+    maxShootDelay: 1
+  - prefab: {fileID: 2830211409349270676, guid: 4569f8c7c76433447879eb348642c7dd, type: 3}
+    probability: 1
+    health: 100
+    minSpeed: 0.2
+    maxSpeed: 1
+    minShootDelay: 0.5
+    maxShootDelay: 1.5
